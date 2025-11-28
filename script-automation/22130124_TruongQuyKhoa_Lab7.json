@@ -1,0 +1,852 @@
+{
+    "DiscountManagement_Add_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/discounts",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleAddForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=id",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=id",
+            "value": "100"
+        },
+        {
+            "command": "click",
+            "target": "name=quantity",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=quantity",
+            "value": "20"
+        },
+        {
+            "command": "click",
+            "target": "name=value",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=value",
+            "value": "15"
+        },
+        {
+            "command": "click",
+            "target": "name=create_date",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=create_date",
+            "value": "2026-12-20"
+        },
+        {
+            "command": "click",
+            "target": "name=exp_date",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=exp_date",
+            "value": "2026-12-21"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='button']",
+            "value": ""
+        }
+    ],
+    "DiscountManagement_Add_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/discounts",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleAddForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=id",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=id",
+            "value": "100"
+        },
+        {
+            "command": "click",
+            "target": "name=quantity",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=quantity",
+            "value": "30"
+        },
+        {
+            "command": "click",
+            "target": "name=value",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=value",
+            "value": "15"
+        },
+        {
+            "command": "click",
+            "target": "name=create_date",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=create_date",
+            "value": "1526-12-20"
+        },
+        {
+            "command": "click",
+            "target": "name=exp_date",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=exp_date",
+            "value": "2026-12-21"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='button']",
+            "value": ""
+        }
+    ],
+    "DiscountManagement_Add_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/discounts",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleAddForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=quantity",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=quantity",
+            "value": "20"
+        },
+        {
+            "command": "click",
+            "target": "name=value",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=value",
+            "value": "15"
+        },
+        {
+            "command": "click",
+            "target": "name=create_date",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=create_date",
+            "value": "2026-12-20"
+        },
+        {
+            "command": "click",
+            "target": "name=exp_date",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=exp_date",
+            "value": "2026-12-21"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='button']",
+            "value": ""
+        },
+        {
+            "command": "assertAlert",
+            "target": "Lỗi khi thêm mã giảm giá.",
+            "value": ""
+        }
+    ],
+    "DiscountManagement_Add_04": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/discounts",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleAddForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=id",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=id",
+            "value": "101"
+        },
+        {
+            "command": "click",
+            "target": "name=value",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=value",
+            "value": "15"
+        },
+        {
+            "command": "click",
+            "target": "name=create_date",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=create_date",
+            "value": "2026-12-20"
+        },
+        {
+            "command": "click",
+            "target": "name=exp_date",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=exp_date",
+            "value": "2026-12-21"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='button']",
+            "value": ""
+        },
+        {
+            "command": "assertAlert",
+            "target": "Lỗi khi thêm mã giảm giá.",
+            "value": ""
+        }
+    ],
+    "DiscountManagement_Add_05": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/discounts",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleAddForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=id",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=id",
+            "value": "100"
+        },
+        {
+            "command": "click",
+            "target": "name=quantity",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=quantity",
+            "value": "20"
+        },
+        {
+            "command": "click",
+            "target": "name=value",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=create_date",
+            "value": "2026-12-20"
+        },
+        {
+            "command": "click",
+            "target": "name=exp_date",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=exp_date",
+            "value": "2026-12-21"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='button']",
+            "value": ""
+        },
+        {
+            "command": "assertAlert",
+            "target": "Lỗi khi thêm mã giảm giá.",
+            "value": ""
+        }
+    ],
+    "DiscountManagement_Add_06": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/discounts",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleAddForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=id",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=id",
+            "value": "100"
+        },
+        {
+            "command": "click",
+            "target": "name=quantity",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=quantity",
+            "value": "20"
+        },
+        {
+            "command": "click",
+            "target": "name=value",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=value",
+            "value": "15"
+        },
+        {
+            "command": "click",
+            "target": "name=exp_date",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=exp_date",
+            "value": "2026-12-21"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='button']",
+            "value": ""
+        },
+        {
+            "command": "assertAlert",
+            "target": "Lỗi khi thêm mã giảm giá.",
+            "value": ""
+        }
+    ],
+    "DiscountManagement_Add_07": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/discounts",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleAddForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=id",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=id",
+            "value": "100"
+        },
+        {
+            "command": "click",
+            "target": "name=quantity",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=quantity",
+            "value": "20"
+        },
+        {
+            "command": "click",
+            "target": "name=value",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=value",
+            "value": "15"
+        },
+        {
+            "command": "click",
+            "target": "name=create_date",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=create_date",
+            "value": "2026-12-20"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='button']",
+            "value": ""
+        },
+        {
+            "command": "assertAlert",
+            "target": "Lỗi khi thêm mã giảm giá.",
+            "value": ""
+        }
+    ],
+    "DiscountManagement_Edit_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/discounts",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleEditForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='editDiscountForm']/input[2]",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "xpath=//form[@id='editDiscountForm']/input[2]",
+            "value": "1"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='editDiscountForm']/input[3]",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "xpath=//form[@id='editDiscountForm']/input[3]",
+            "value": "50"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='editDiscountForm']/button",
+            "value": ""
+        }
+    ],
+    "DiscountManagement_Edit_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/discounts",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleEditForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='editDiscountForm']/input[2]",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "xpath=//form[@id='editDiscountForm']/input[2]",
+            "value": "999"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='editDiscountForm']/input[3]",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "xpath=//form[@id='editDiscountForm']/input[3]",
+            "value": "50"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='editDiscountForm']/button",
+            "value": ""
+        },
+        {
+            "command": "assertAlert",
+            "target": "Lỗi khi sửa mã giảm giá.",
+            "value": ""
+        }
+    ],
+    "DiscountManagement_Edit_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/discounts",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleEditForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='editDiscountForm']/input[3]",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "xpath=//form[@id='editDiscountForm']/input[3]",
+            "value": "50"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='editDiscountForm']/button",
+            "value": ""
+        },
+        {
+            "command": "assertAlert",
+            "target": "Lỗi khi sửa mã giảm giá.",
+            "value": ""
+        }
+    ],
+    "DiscountManagement_Edit_04": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/discounts",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleEditForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='editDiscountForm']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='editDiscountForm']/input[2]",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "xpath=//form[@id='editDiscountForm']/input[2]",
+            "value": "1"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='editDiscountForm']/button",
+            "value": ""
+        },
+        {
+            "command": "assertAlert",
+            "target": "Lỗi khi sửa mã giảm giá.",
+            "value": ""
+        }
+    ],
+    "Checkout_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/home",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//img[@alt='Nâng cấp Google Drive One']",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=23",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//a[@id='add-to-cart-btn']/span",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/Cart",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@id='payment']/span",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/payment?oid=55&bid=1",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=confirmText",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/order?id=55&pid=23",
+            "value": ""
+        },
+        {
+            "command": "assertTitle",
+            "target": "Hóa Đơn",
+            "value": ""
+        }
+    ],
+    "Checkout_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/home",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//img[@alt='Nâng cấp Google Drive One']",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=23",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//a[@id='add-to-cart-btn']/span",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/Cart",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=payment",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/payment?oid=57&bid=1",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//div[@id='body_page']/div/div[2]/div/div[5]",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=address-method",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=province",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "id=province",
+            "value": "label=Hồ Chí Minh"
+        },
+        {
+            "command": "click",
+            "target": "id=district",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "id=district",
+            "value": "label=Thành Phố Thủ Đức"
+        },
+        {
+            "command": "click",
+            "target": "id=ward",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "id=ward",
+            "value": "label=Phường Linh Trung"
+        },
+        {
+            "command": "click",
+            "target": "id=detailed-address",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=detailed-address",
+            "value": "104, đường số 17"
+        },
+        {
+            "command": "click",
+            "target": "id=confirm-address",
+            "value": ""
+        },
+        {
+            "command": "assertAlert",
+            "target": "Cập nhật địa chỉ giao hàng thành công!",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=confirmText",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/order?id=57&pid=23",
+            "value": ""
+        },
+        {
+            "command": "assertTitle",
+            "target": "Hóa Đơn",
+            "value": ""
+        }
+    ],
+    "Checkout_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/home",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//img[@alt='Nâng cấp Google Drive One']",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=23",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//a[@id='add-to-cart-btn']/i",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/Cart",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@id='payment']/span",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/payment?oid=59&bid=1",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=address-method",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=confirm-address",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=confirmText",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/order?id=59&pid=23",
+            "value": ""
+        },
+        {
+            "command": "verifyTitle",
+            "target": "Hóa Đơn",
+            "value": ""
+        }
+    ],
+    "Checkout_04": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/Cart",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@id='payment']/span",
+            "value": ""
+        },
+        {
+            "command": "assertAlert",
+            "target": "Không có sản phẩm trong giỏ hàng!",
+            "value": ""
+        }
+    ]
+}
