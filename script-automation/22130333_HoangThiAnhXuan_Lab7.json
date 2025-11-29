@@ -1,5 +1,272 @@
-
 {
+  "PRD_MGT_Display_1": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//a[contains(@class,'bt_user')]",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "#email",
+      "value": "xhoang345@gmail.com"
+    },
+
+    {
+      "command": "type",
+      "target": "#password",
+      "value": "123456"
+    },
+    {
+      "command": "click",
+      "target": "input[type='submit'][value='Đăng nhập']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/ProductManagement",
+      "value": ""
+    }
+  ],
+  "PRD_MGT_Search_1": [
+    {
+      "command": "waitFor",
+      "target": ".btn-find",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": ".btn-find",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "[name='productID']",
+      "value": "16"
+    },
+    {
+      "command": "click",
+      "target": "#findProductForm button[type='submit']",
+      "value": ""
+    }
+  ],
+  "PRD_MGT_Search_2": [
+    {
+      "command": "click",
+      "target": ".btn-find",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "[name='productName']",
+      "value": "Microsoft"
+    },
+    {
+      "command": "click",
+      "target": "#findProductForm button[type='submit']",
+      "value": ""
+    }
+  ],
+  "PRD_MGT_Search_3": [
+    {
+      "command": "click",
+      "target": ".btn-find",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "[name='productID']",
+      "value": "150"
+    },
+    {
+      "command": "click",
+      "target": "#findProductForm button[type='submit']",
+      "value": ""
+    }
+  ],
+  "PRD_MGT_Search_4": [
+    {
+      "command": "click",
+      "target": ".btn-find",
+      "value": ""
+    },
+    {
+      "command": "selectOption",
+      "target": "select[name='status']",
+      "value": "Còn hàng"
+    },
+    {
+      "command": "click",
+      "target": "#findProductForm button[type='submit']",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": ".btn-find",
+      "value": ""
+    },
+    {
+      "command": "selectOption",
+      "target": "select[name='status']",
+      "value": "Hết hàng"
+    },
+    {
+      "command": "click",
+      "target": "#findProductForm button[type='submit']",
+      "value": ""
+    }
+  ],
+  "PRD_MGT_Add_1": [
+    {
+      "command": "click",
+      "target": ".btn-add",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "#addProductName",
+      "value": "Spotify"
+    },
+    {
+      "command": "type",
+      "target": "#addProductPrice",
+      "value": "100000"
+    },
+    {
+      "command": "type",
+      "target": "#addProductDuration",
+      "value": "2 tháng"
+    },
+    {
+      "command": "type",
+      "target": "#addProductImg",
+      "value": "C://anh"
+    },
+    {
+      "command": "click",
+      "target": "#addProductForm button[type='submit']",
+      "value": ""
+    }
+  ],
+  "PRD_MGT_Add_2": [
+    {
+      "command": "click",
+      "target": ".btn-add",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "#addProductName",
+      "value": "Spotify"
+    },
+    {
+      "command": "type",
+      "target": "#addProductDuration",
+      "value": "12 tháng"
+    },
+    {
+      "command": "type",
+      "target": "#addProductImg",
+      "value": "C://anh"
+    },
+    {
+      "command": "click",
+      "target": "#addProductForm button[type='submit']",
+      "value": ""
+    }
+  ],
+  "PRD_MGT_Update_1": [
+    {
+      "command": "click",
+      "target": "[data-name='Vieon gói all access 6 tháng'] [onclick='editProduct(this)']",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "#editProductPrice",
+      "value": "100000.0"
+    },
+    {
+      "command": "click",
+      "target": "#editProductDetails button[type='submit']",
+      "value": ""
+    }
+  ],
+  "PRD_MGT_Delete_1": [
+    {
+      "command": "click",
+      "target": ".btn-add",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "#addProductName",
+      "value": "Spotify_to_delete"
+    },
+    {
+      "command": "type",
+      "target": "#addProductPrice",
+      "value": "1000000"
+    },
+    {
+      "command": "type",
+      "target": "#addProductDuration",
+      "value": "12 tháng"
+    },
+    {
+      "command": "type",
+      "target": "#addProductImg",
+      "value": "http://localhost:8080/web/img/sample.jpg"
+    },
+    {
+      "command": "click",
+      "target": "#addProductForm button[type='submit']",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "[data-name='Spotify_to_delete'] form button[type='submit']",
+      "value": ""
+    }
+  ],
+  "PRD_MGT_AddKey_1": [
+    {
+      "command": "click",
+      "target": "[data-name='Galaxy Play Gói Cao Cấp'] [onclick='loadProductKeyInfo(this)']",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "#keys",
+      "value": "KHFS-391J-GLXY"
+    },
+    {
+      "command": "click",
+      "target": "[id='addKey'] [type='submit']",
+      "value": ""
+    }
+  ],
+  "PRD_MGT_Search_5": [
+    {
+      "command": "click",
+      "target": ".btn-find",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "[name='productID']",
+      "value": "@"
+    },
+    {
+      "command": "click",
+      "target": "#findProductForm button[type='submit']",
+      "value": ""
+    }
+  ],
   "KEY_MGT_Display_1": [
     {
       "command": "open",
@@ -177,7 +444,7 @@
   "KEY_MGT_Delete_1": [
     {
       "command": "click",
-       "target": "xpath=//*[@id='keyTable']//button[contains(@class,'delete-btn')][1]",
+      "target": "xpath=//*[@id='keyTable']//button[contains(@class,'delete-btn')][1]",
       "value": ""
     }
   ]
