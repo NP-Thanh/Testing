@@ -1,0 +1,717 @@
+{
+    "USER_ACCOUNT_ChangePass_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=old-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=old-password",
+            "value": "111"
+        },
+        {
+            "command": "click",
+            "target": "id=new-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=new-password",
+            "value": "Thanh22130259"
+        },
+        {
+            "command": "click",
+            "target": "id=confirm-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=confirm-password",
+            "value": "Thanh22130259"
+        },
+        {
+            "command": "click",
+            "target": "id=changePasswordButton",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangePass_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=old-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=old-password",
+            "value": "Thanh22222"
+        },
+        {
+            "command": "click",
+            "target": "id=new-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=new-password",
+            "value": "Thanh22192"
+        },
+        {
+            "command": "click",
+            "target": "id=confirm-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=confirm-password",
+            "value": "Thanh22192"
+        },
+        {
+            "command": "click",
+            "target": "id=changePasswordButton",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangePass_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=old-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=old-password",
+            "value": "Thanh22130259"
+        },
+        {
+            "command": "click",
+            "target": "id=new-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=new-password",
+            "value": "Thanh123456"
+        },
+        {
+            "command": "click",
+            "target": "id=confirm-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=confirm-password",
+            "value": "Thanh789456"
+        },
+        {
+            "command": "click",
+            "target": "id=changePasswordButton",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangePass_04": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=old-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=old-password",
+            "value": "Thanh22130259"
+        },
+        {
+            "command": "click",
+            "target": "id=new-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=new-password",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=confirm-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=confirm-password",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=changePasswordButton",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangePass_05": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=old-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=old-password",
+            "value": "Thanh22130259"
+        },
+        {
+            "command": "click",
+            "target": "id=new-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=new-password",
+            "value": "1"
+        },
+        {
+            "command": "click",
+            "target": "id=confirm-password",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=confirm-password",
+            "value": "1"
+        },
+        {
+            "command": "click",
+            "target": "id=changePasswordButton",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangePhone_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=phone",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=phone",
+            "value": "0826661039"
+        },
+        {
+            "command": "click",
+            "target": "id=saveInfoButton",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangePhone_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=phone",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=phone",
+            "value": "08266"
+        },
+        {
+            "command": "click",
+            "target": "id=saveInfoButton",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangePhone_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=phone",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=phone",
+            "value": "08266610xx"
+        },
+        {
+            "command": "click",
+            "target": "id=saveInfoButton",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangePhone_04": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=phone",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=phone",
+            "value": "08266610&&"
+        },
+        {
+            "command": "click",
+            "target": "id=saveInfoButton",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangePhone_05": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=phone",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=phone",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=saveInfoButton",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangeUsername_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=username",
+            "value": "Phúc Thạnh"
+        },
+        {
+            "command": "click",
+            "target": "id=saveInfoButton",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangeUsername_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=username",
+            "value": "Phúc Thạnh12345"
+        },
+        {
+            "command": "click",
+            "target": "id=saveInfoButton",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangeUsername_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=username",
+            "value": "Phúc Thạnh%#@"
+        },
+        {
+            "command": "click",
+            "target": "id=saveInfoButton",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangeUsername_04": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=username",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=username",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=saveInfoButton",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_ChangeMail_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=email",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": "test@gmail.com"
+        },
+        {
+            "command": "click",
+            "target": "id=saveInfoButton",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_Display_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_Display_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/view",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_Display_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/lichsugiaodich",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_CheckHistoryBill_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/lichsugiaodich",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=17",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_ACCOUNT_CheckHistoryProduct_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/view",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Xem Chi Tiết",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_PRODUCT_CheckButton_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=33",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//a[@id='add-to-cart-btn']/span",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/Cart",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_PRODUCT_CheckButton_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=23",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//a[@id='add-to-cart-btn']/span",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/Cart",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_PRODUCT_CheckButton_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=33",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='button']",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_PRODUCT_CheckButton_04": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=23",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//div[@id='section_normal_2']/div[2]/div/div/div[3]/button/span",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_PRODUCT_CheckButton_05": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=33",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//div[@id='section_normal_2']/div[2]/div/div[2]/div[2]/a[2]/i",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/Cart",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_PRODUCT_CheckButton_06": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=33",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Xem tất cả",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_PRODUCT_Display_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/home",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//img[@alt='Tài khoản Notion Pro']",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_PRODUCT_Display_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=32",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_PRODUCT_Display_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=99999",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ],
+    "USER_PRODUCT_Display_04": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/home",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//img[@alt='Tài khoản Notion Pro']",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=33",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//img[contains(@src,'https://api.keyshop.vn/images/1680508091536-Cclean%20-%201%20VN.jpg')]",
+            "value": ""
+        },
+        {
+            "command": "pause",
+            "target": "1000",
+            "value": ""
+        }
+    ]
+}

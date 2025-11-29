@@ -1,0 +1,629 @@
+{
+  "CARTDisplay1": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a[2]/span",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/login",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=email",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=email",
+      "value": "22130259@st.hcmuaf.edu.vn"
+    },
+    {
+      "command": "type",
+      "target": "id=password",
+      "value": "111"
+    },
+    {
+      "command": "click",
+      "target": "id=loginForm",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//input[@value='Đăng nhập']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/Cart",
+      "value": ""
+    }
+  ],
+  "CARTDisplay2": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='section1']/div[2]/a/div[2]/span",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/ProductDetail?id=26",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//a[@id='add-to-cart-btn']/span",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/Cart",
+      "value": ""
+    }
+  ],
+  "CARTUpdate1": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/Cart",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "link=+",
+      "value": ""
+    }
+  ],
+  "CARTUpdate2": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/Cart",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "link=-",
+      "value": ""
+    }
+  ],
+  "CARTUpdate3": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/Cart",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "link=-",
+      "value": ""
+    }
+  ],
+  "CARTDelete1": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='section1']/div[2]/a/div[2]/span",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/ProductDetail?id=26",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//a[@id='add-to-cart-btn']/span",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='body_page']/div/div[2]/div/div[2]/a/div/div/i",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/Cart",
+      "value": ""
+    }
+  ],
+  "CARTDelete2": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/ProductDetail?id=26",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//a[@id='add-to-cart-btn']/i",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "link=Giải trí",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/products?category=Gi%E1%BA%A3i%20tr%C3%AD",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//img[@alt='Tài khoản Nhaccuatui Vip 12 Tháng']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/ProductDetail?id=15",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=add-to-cart-btn",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/Cart",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='body_page']/div/div[2]/div/div[2]/a/div/div/i",
+      "value": ""
+    }
+  ],
+  "CARTCoupon1": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "link=Học tập",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/products?category=H%E1%BB%8Dc%20t%E1%BA%ADp",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//img[@alt='Tài khoản Coursera Plus 6 Tháng']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/ProductDetail?id=18",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//a[@id='add-to-cart-btn']/i",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/Cart",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=discount-input",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=discount-input",
+      "value": "101"
+    },
+    {
+      "command": "click",
+      "target": "id=apply-button",
+      "value": ""
+    }
+  ],
+  "CARTCoupon2": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/Cart",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/ProductDetail?id=26",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//a[@id='add-to-cart-btn']/i",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/Cart",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "id=discount-input",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "id=discount-input",
+      "value": "934"
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@id='apply-button']/span",
+      "value": ""
+    }
+  ],
+  "CARTCoupon3": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/home",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/products?category=Gi%E1%BA%A3i%20tr%C3%AD",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//img[@alt='Tài khoản Nhaccuatui Vip 12 Tháng']",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/ProductDetail?id=15",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//a[@id='add-to-cart-btn']/span",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/Cart",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@id='apply-button']/span",
+      "value": ""
+    },
+    {
+      "command": "assertAlert",
+      "target": "Vui lòng nhập mã giảm giá!",
+      "value": ""
+    }
+  ],
+  "OMDisplay1": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/orderManagement",
+      "value": ""
+    }
+  ],
+  "OMSearch1": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/orderManagement",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@onclick='toggleEditForm()']",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "name=orderID",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "name=orderID",
+      "value": "20"
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    }
+  ],
+  "OMSearch2": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/orderManagement",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@onclick='toggleEditForm()']",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "name=productName",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "name=productName",
+      "value": "Tài khoản Google Drive Vĩnh viễn"
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    }
+  ],
+  "OMSearch3": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/orderManagement",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@onclick='toggleEditForm()']",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "name=orderID",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "name=orderID",
+      "value": "999999"
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    }
+  ],
+  "OMSearch4": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/orderManagement",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@onclick='toggleEditForm()']",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "name=status",
+      "value": ""
+    },
+    {
+      "command": "select",
+      "target": "name=status",
+      "value": "label=Đã thanh toán"
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    }
+  ],
+  "OMSearch5": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/orderManagement",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@onclick='toggleEditForm()']",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "name=status",
+      "value": ""
+    },
+    {
+      "command": "select",
+      "target": "name=status",
+      "value": "label=Chưa thanh toán"
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    }
+  ],
+  "OMSearch6": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/orderManagement",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@onclick='toggleEditForm()']",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "name=status",
+      "value": ""
+    },
+    {
+      "command": "select",
+      "target": "name=status",
+      "value": "label=Chờ xử lý"
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    }
+  ],
+  "OMSearch7": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/orderManagement",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/following::button[1]",
+      "value": ""
+    }
+  ],
+  "OMProcess1": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/orderManagement",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@onclick='toggleEditForm()']",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "name=productName",
+      "value": ""
+    },
+    {
+      "command": "type",
+      "target": "name=productName",
+      "value": "Tài khoản Nhaccuatui Vip 12 Tháng"
+    },
+    {
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//tbody[@id='bankTable']/tr/td[7]/form/button",
+      "value": ""
+    }
+  ],
+  "OMProcess2": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/orderManagement",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "xpath=//tbody[@id='bankTable']/tr[10]/td[7]/form/button",
+      "value": ""
+    },
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/sendKey?oid=26",
+      "value": ""
+    }
+  ],
+  "OMDelete1": [
+    {
+      "command": "open",
+      "target": "http://localhost:8080/web/orderManagement",
+      "value": ""
+    },
+    {
+      "command": "click",
+      "target": "css=path",
+      "value": ""
+    }
+  ]
+}
