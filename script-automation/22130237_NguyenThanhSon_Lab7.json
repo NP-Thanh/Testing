@@ -1,0 +1,1811 @@
+[
+  {
+    "info": "CARTDisplay1.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/home\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/home"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'section_normal_1\\']/div/div[2]/div[3]/a[2]/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/login\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/login"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 22130259@st.hcmuaf.edu.vn",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "22130259@st.hcmuaf.edu.vn",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "type 111",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "111",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#loginForm"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//input[@value=\\'Đăng nhập\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/home\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/home"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'section_normal_1\\']/div/div[2]/div[3]/a/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/Cart\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/Cart"
+      }
+    ]
+  },
+  {
+    "info": "CARTDisplay2.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/home\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/home"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'section1\\']/div[2]/a/div[2]/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/ProductDetail?id=26\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/ProductDetail?id=26"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[@id=\\'add-to-cart-btn\\']/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'section_normal_1\\']/div/div[2]/div[3]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/Cart\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/Cart"
+      }
+    ]
+  },
+  {
+    "info": "CARTUpdate1.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/home\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/home"
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/Cart\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/Cart"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"+\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "CARTUpdate2.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/home\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/home"
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/Cart\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/Cart"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"-\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "CARTUpdate3.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/home\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/home"
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/Cart\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/Cart"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"-\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "CARTDelete1.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/home\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/home"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'section1\\']/div[2]/a/div[2]/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/ProductDetail?id=26\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/ProductDetail?id=26"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[@id=\\'add-to-cart-btn\\']/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'section_normal_1\\']/div/div[2]/div[3]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'body_page\\']/div/div[2]/div/div[2]/a/div/div/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/Cart\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/Cart"
+      }
+    ]
+  },
+  {
+    "info": "CARTDelete2.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/home\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/home"
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/ProductDetail?id=26\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/ProductDetail?id=26"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[@id=\\'add-to-cart-btn\\']/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Giải trí\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/products?category=Gi%E1%BA%A3i%20tr%C3%AD\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/products?category=Gi%E1%BA%A3i%20tr%C3%AD"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//img[@alt=\\'Tài khoản Nhaccuatui Vip 12 Tháng\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/ProductDetail?id=15\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/ProductDetail?id=15"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#add-to-cart-btn"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'section_normal_1\\']/div/div[2]/div[3]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/Cart\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/Cart"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'body_page\\']/div/div[2]/div/div[2]/a/div/div/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "CARTCoupon1.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/home\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/home"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Học tập\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/products?category=H%E1%BB%8Dc%20t%E1%BA%ADp\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/products?category=H%E1%BB%8Dc%20t%E1%BA%ADp"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//img[@alt=\\'Tài khoản Coursera Plus 6 Tháng\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/ProductDetail?id=18\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/ProductDetail?id=18"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[@id=\\'add-to-cart-btn\\']/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'section_normal_1\\']/div/div[2]/div[3]/a/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/Cart\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/Cart"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#discount-input"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 101",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#discount-input"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "101",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#apply-button"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "CARTCoupon2.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/home\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/home"
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/Cart\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/Cart"
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/ProductDetail?id=26\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/ProductDetail?id=26"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[@id=\\'add-to-cart-btn\\']/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'section_normal_1\\']/div/div[2]/div[3]/a/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/Cart\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/Cart"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#discount-input"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 934",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#discount-input"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "934",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@id=\\'apply-button\\']/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "CARTCoupon3.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/home\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/home"
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/products?category=Gi%E1%BA%A3i%20tr%C3%AD\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/products?category=Gi%E1%BA%A3i%20tr%C3%AD"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//img[@alt=\\'Tài khoản Nhaccuatui Vip 12 Tháng\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/ProductDetail?id=15\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/ProductDetail?id=15"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[@id=\\'add-to-cart-btn\\']/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'section_normal_1\\']/div/div[2]/div[3]/a/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/Cart\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/Cart"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@id=\\'apply-button\\']/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "OMDisplay1.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/orderManagement\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/orderManagement"
+      }
+    ]
+  },
+  {
+    "info": "OMSearch1.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/orderManagement\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/orderManagement"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@onclick=\\'toggleEditForm()\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "[name=\"orderID\"]"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 20",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "[name=\"orderID\"]"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "20",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "OMSearch2.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/orderManagement\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/orderManagement"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@onclick=\\'toggleEditForm()\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "[name=\"productName\"]"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Tài khoản Google Drive Vĩnh viễn",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "[name=\"productName\"]"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Tài khoản Google Drive Vĩnh viễn",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "OMSearch3.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/orderManagement\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/orderManagement"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@onclick=\\'toggleEditForm()\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "[name=\"orderID\"]"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 999999",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "[name=\"orderID\"]"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "999999",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "OMSearch4.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/orderManagement\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/orderManagement"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@onclick=\\'toggleEditForm()\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "[name=\"status\"]"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "select option",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "javascript",
+        "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('[name=\"status\"]')[0] : document.querySelector('[name=\"status\"]');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"Đã thanh toán\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "OMSearch5.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/orderManagement\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/orderManagement"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@onclick=\\'toggleEditForm()\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "[name=\"status\"]"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "select option",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "javascript",
+        "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('[name=\"status\"]')[0] : document.querySelector('[name=\"status\"]');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"Chưa thanh toán\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "OMSearch6.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/orderManagement\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/orderManagement"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@onclick=\\'toggleEditForm()\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "[name=\"status\"]"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "select option",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "javascript",
+        "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('[name=\"status\"]')[0] : document.querySelector('[name=\"status\"]');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"Chờ xử lý\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "OMSearch7.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/orderManagement\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/orderManagement"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'Tìm kiếm\\'])[2]/following::button[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "OMProcess1.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/orderManagement\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/orderManagement"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@onclick=\\'toggleEditForm()\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "[name=\"productName\"]"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Tài khoản Nhaccuatui Vip 12 Tháng",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "[name=\"productName\"]"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Tài khoản Nhaccuatui Vip 12 Tháng",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@type=\\'submit\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//tbody[@id=\\'bankTable\\']/tr/td[7]/form/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  {
+    "info": "OMProcess2.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/orderManagement\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/orderManagement"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//tbody[@id=\\'bankTable\\']/tr[10]/td[7]/form/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"http://localhost:8080/web/sendKey?oid=26\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/sendKey?oid=26"
+      }
+    ]
+  },
+  {
+    "info": "OMDelete1.json",
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"http://localhost:8080/web/orderManagement\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "http://localhost:8080/web/orderManagement"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "path"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  }
+]
