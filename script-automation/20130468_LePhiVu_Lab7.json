@@ -1,0 +1,71 @@
+{
+    "REGISTER_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/login",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": "22130259@st.hcmuaf.edu.vn"
+        },
+        {
+            "command": "type",
+            "target": "id=password",
+            "value": "matkhau_sai"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[@value='Đăng nhập']",
+            "value": ""
+        }
+    ],
+
+    "USER_MANAGE_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/login",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": "abcdomain"
+        },
+        {
+            "command": "type",
+            "target": "id=password",
+            "value": "124312"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[@value='Đăng nhập']",
+            "value": ""
+        }
+    ],
+
+    "FORGOT_PASS_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/login",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=password",
+            "value": "111"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[@value='Đăng nhập']",
+            "value": ""
+        }
+    ]
+    
+}
