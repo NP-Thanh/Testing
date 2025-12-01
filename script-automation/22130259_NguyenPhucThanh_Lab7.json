@@ -41,6 +41,11 @@
             "value": ""
         },
         {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Đổi mật khẩu thành công"
+        },
+        {
             "command": "pause",
             "target": "1000",
             "value": ""
@@ -86,6 +91,11 @@
             "command": "click",
             "target": "id=changePasswordButton",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Mật khẩu cũ không đúng."
         },
         {
             "command": "pause",
@@ -135,6 +145,11 @@
             "value": ""
         },
         {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Mật khẩu xác nhận không trùng khớp."
+        },
+        {
             "command": "pause",
             "target": "1000",
             "value": ""
@@ -180,6 +195,11 @@
             "command": "click",
             "target": "id=changePasswordButton",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Hãy nhập đầy đủ thông tin"
         },
         {
             "command": "pause",
@@ -229,6 +249,11 @@
             "value": ""
         },
         {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Đổi mật khẩu không thành công. Mật khẩu mới quá ngắn"
+        },
+        {
             "command": "pause",
             "target": "1000",
             "value": ""
@@ -254,6 +279,11 @@
             "command": "click",
             "target": "id=saveInfoButton",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Đổi số điện thoại thành công"
         }
     ],
     "USER_ACCOUNT_ChangePhone_02": [
@@ -276,6 +306,11 @@
             "command": "click",
             "target": "id=saveInfoButton",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Đổi số điện thoại không thành công. Độ dài không hợp lệ"
         }
     ],
     "USER_ACCOUNT_ChangePhone_03": [
@@ -298,6 +333,11 @@
             "command": "click",
             "target": "id=saveInfoButton",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Đổi số điện thoại không thành công. Số điện thoại mới không hợp lệ"
         }
     ],
     "USER_ACCOUNT_ChangePhone_04": [
@@ -320,6 +360,11 @@
             "command": "click",
             "target": "id=saveInfoButton",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Đổi số điện thoại không thành công. Số điện thoại mới không hợp lệ"
         }
     ],
     "USER_ACCOUNT_ChangePhone_05": [
@@ -342,6 +387,11 @@
             "command": "click",
             "target": "id=saveInfoButton",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Hãy nhập đầy đủ thông tin"
         }
     ],
     "USER_ACCOUNT_ChangeUsername_01": [
@@ -364,6 +414,11 @@
             "command": "click",
             "target": "id=saveInfoButton",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Đổi tên người dùng thành công"
         }
     ],
     "USER_ACCOUNT_ChangeUsername_02": [
@@ -386,6 +441,11 @@
             "command": "click",
             "target": "id=saveInfoButton",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Đổi tên người dùng không thành công. Tên không hợp lệ"
         }
     ],
     "USER_ACCOUNT_ChangeUsername_03": [
@@ -408,6 +468,11 @@
             "command": "click",
             "target": "id=saveInfoButton",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Đổi tên người dùng không thành công. Tên không hợp lệ"
         }
     ],
     "USER_ACCOUNT_ChangeUsername_04": [
@@ -430,6 +495,11 @@
             "command": "click",
             "target": "id=saveInfoButton",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Hãy nhập đầy đủ thông tin"
         }
     ],
     "USER_ACCOUNT_ChangeMail_01": [
@@ -457,6 +527,11 @@
             "command": "pause",
             "target": "1000",
             "value": ""
+        },
+        {
+            "command": "alertText",
+            "target": "id=message",
+            "value": "Không được đổi email đăng ký"
         }
     ],
     "USER_ACCOUNT_Display_01": [
@@ -524,6 +599,11 @@
             "value": ""
         },
         {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductDetail?id=33",
+            "value": ""
+        },
+        {
             "command": "pause",
             "target": "1000",
             "value": ""
@@ -568,6 +648,11 @@
             "value": ""
         },
         {
+            "command": "alert",
+            "target": "Sản phẩm hết hàng",
+            "value": ""
+        },
+        {
             "command": "pause",
             "target": "1000",
             "value": ""
@@ -585,6 +670,11 @@
             "value": ""
         },
         {
+            "command": "open",
+            "target": "http://localhost:8080/web/payment?oid=51&bid=1",
+            "value": ""
+        },
+        {
             "command": "pause",
             "target": "1000",
             "value": ""
@@ -599,6 +689,11 @@
         {
             "command": "click",
             "target": "xpath=//div[@id='section_normal_2']/div[2]/div/div/div[3]/button/span",
+            "value": ""
+        },
+        {
+            "command": "alert",
+            "target": "Sản phẩm hết hàng",
             "value": ""
         },
         {
@@ -638,6 +733,11 @@
         {
             "command": "click",
             "target": "link=Xem tất cả",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/Comment?id=33",
             "value": ""
         },
         {
