@@ -1,82 +1,544 @@
 {
-  "configuration": {
-    "device": {
-      "orientation": "landscape",
-      "deviceName": "Desktop"
-    }
-  },
-  "type": "clickpath",
-  "version": "1.0",
-  "events": [
-    {
-      "description": "Navigate to login page",
-      "wait": {
-        "waitFor": "page_complete"
-      },
-      "target": {},
-      "type": "navigate",
-      "url": "http://localhost:8080/web/login"
-    },
-    {
-      "description": "type ${email}",
-      "wait": {
-        "waitFor": "page_complete"
-      },
-      "target": {
-        "locators": [
-          {
-            "type": "css",
-            "value": "#email"
-          }
-        ]
-      },
-      "type": "keystrokes",
-      "textValue": "${email}",
-      "simulateBlurEvent": true
-    },
-    {
-      "description": "type ${password}",
-      "wait": {
-        "waitFor": "page_complete"
-      },
-      "target": {
-        "locators": [
-          {
-            "type": "css",
-            "value": "#password"
-          }
-        ]
-      },
-      "type": "keystrokes",
-      "textValue": "${password}",
-      "simulateBlurEvent": true,
-      "masked": true
-    },
-    {
-      "description": "click Đăng nhập",
-      "wait": {
-        "waitFor": "page_complete"
-      },
-      "target": {
-        "locators": [
-          {
-            "type": "dom",
-            "value": "document.evaluate('//input[@value=\\'Đăng nhập\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
-          }
-        ]
-      },
-      "type": "click",
-      "button": 0
-    },
-    {
-      "description": "Verify result: Check URL for SUCCESS or element text for FAILURE using expected_result.",
-      "wait": {
-        "waitFor": "page_complete"
-      },
-      "target": {},
-      "type": "runScript",
-      "script": "var expectedResult = '${expected_result}'; \n\n// Kịch bản THÀNH CÔNG: Kiểm tra URL không còn là /login \nif (expectedResult.includes('chuyển hướng đến trang chủ') || expectedResult.includes('SUCCESS')) { \n  return !window.location.href.includes('/login'); \n} \n\n// Kịch bản THẤT BẠI: Kiểm tra nội dung lỗi \n// Kiểm tra nội dung lỗi có tồn tại trong body của trang hay không\nif (document.body.innerText.includes(expectedResult)) {\n    return true;\n} \n\n// Nếu không thỏa mãn cả SUCCESS lẫn FAILURE TEXT, coi là thất bại \nreturn false;",
-      "expectedResult": true 
-    }
-  ]
+    // =================================================================
+    // MODULE 1: LOGIN_LOGOUT
+    // =================================================================
+    
+    "LOGIN_LOGOUT_LoginFail_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/login",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": "22130259@st.hcmuaf.edu.vn"
+        },
+        {
+            "command": "type",
+            "target": "id=password",
+            "value": "matkhau_sai"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[@value='Đăng nhập']",
+            "value": ""
+        }
+    ],
+
+    "LOGIN_LOGOUT_LoginFail_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/login",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": "abcdomain"
+        },
+        {
+            "command": "type",
+            "target": "id=password",
+            "value": "124312"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[@value='Đăng nhập']",
+            "value": ""
+        }
+    ],
+
+    "LOGIN_LOGOUT_LoginFail_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/login",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=password",
+            "value": "111"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[@value='Đăng nhập']",
+            "value": ""
+        }
+    ],
+
+    "LOGIN_LOGOUT_LoginFail_04": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/login",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": "22130259@st.hcmuaf.edu.vn"
+        },
+        {
+            "command": "type",
+            "target": "id=password",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[@value='Đăng nhập']",
+            "value": ""
+        }
+    ],
+
+    "LOGIN_LOGOUT_LoginFail_05": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/login",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": "221302554@st.hcmuaf.edu.vn"
+        },
+        {
+            "command": "type",
+            "target": "id=password",
+            "value": "123"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[@value='Đăng nhập']",
+            "value": ""
+        }
+    ],
+
+    "LOGIN_LOGOUT_LoginFail_06": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/login",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": "22130259@st.hcmuaf.edu.vn"
+        },
+        {
+            "command": "type",
+            "target": "id=password",
+            "value": "fasdfasdfawefvasdfasdfasdfasdfasdfsadfasdfasdfasdfasdfasdfasdfsadfasdfasdfasdfasdfasdfasdfasdfasdf"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[@value='Đăng nhập']",
+            "value": ""
+        }
+    ],
+
+    "LOGIN_LOGOUT_LoginFail_07": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/login",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": "22130259@st.hcmuaf.edu.vn"
+        },
+        {
+            "command": "type",
+            "target": "id=password",
+            "value": "1"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[@value='Đăng nhập']",
+            "value": ""
+        }
+    ],
+
+    "LOGIN_LOGOUT_LoginSucss_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/login",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=email",
+            "value": "22130259@st.hcmuaf.edu.vn"
+        },
+        {
+            "command": "type",
+            "target": "id=password",
+            "value": "111"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//input[@value='Đăng nhập']",
+            "value": ""
+        }
+    ],
+
+    "LOGIN_LOGOUT_Logout_01": [
+        {
+            "command": "click",
+            "target": "link=Chào, Anh ...",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/account",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Đăng xuất",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/home",
+            "value": ""
+        }
+    ],
+    
+    // =================================================================
+    // MODULE 2: LOG_MANAGEMENT
+    // =================================================================
+
+    "LOG_MANAGEMENT_Display_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/dashboard",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Lịch sử log",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/logs",
+            "value": ""
+        }
+    ],
+
+    "LOG_MANAGEMENT_Search_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/logs",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleEditForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=productName",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=productName",
+            "value": "7"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='submit']",
+            "value": ""
+        }
+    ],
+
+    "LOG_MANAGEMENT_Search_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/logs",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleEditForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=productName",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=productName",
+            "value": "abc"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='submit']",
+            "value": ""
+        }
+    ],
+
+    "LOG_MANAGEMENT_Search_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/logs",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleEditForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=level",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "name=level",
+            "value": "Info"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='submit']",
+            "value": ""
+        }
+    ],
+
+    "LOG_MANAGEMENT_Search_04": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/logs",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleEditForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=level",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "name=level",
+            "value": "Warning"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='submit']",
+            "value": ""
+        }
+    ],
+
+    "LOG_MANAGEMENT_Search_05": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/logs",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleEditForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=level",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "name=level",
+            "value": "Danger"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='submit']",
+            "value": ""
+        }
+    ],
+
+    "LOG_MANAGEMENT_Reset_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/logs",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/following::button[1]",
+            "value": ""
+        }
+    ],
+
+    "LOG_MANAGEMENT_Record_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductManagement",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleAddForm()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "id=addProductName",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=addProductName",
+            "value": "YT Pr"
+        },
+        {
+            "command": "click",
+            "target": "id=addProductType",
+            "value": ""
+        },
+        {
+            "command": "select",
+            "target": "id=addProductType",
+            "value": "label=Học tập"
+        },
+        {
+            "command": "click",
+            "target": "id=addProductPrice",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=addProductPrice",
+            "value": "12345"
+        },
+        {
+            "command": "click",
+            "target": "id=addProductDuration",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=addProductDuration",
+            "value": "1 Tháng"
+        },
+        {
+            "command": "click",
+            "target": "id=addProductImg",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "id=addProductImg",
+            "value": "https://takepsd.com/wp-content/uploads/2025/06/Youtube-Premium1.webp"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//form[@id='addProductForm']/button",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Lịch sử log",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/logs",
+            "value": ""
+        }
+    ],
+
+    "LOG_MANAGEMENT_Record_02": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/ProductManagement",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@onclick='toggleFind()']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "name=productName",
+            "value": ""
+        },
+        {
+            "command": "type",
+            "target": "name=productName",
+            "value": "YT Pr"
+        },
+        {
+            "command": "click",
+            "target": "xpath=//button[@type='submit']",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "css=path",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Lịch sử log",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/logs",
+            "value": ""
+        }
+    ],
+
+    "LOG_MANAGEMENT_Record_03": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/user",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "xpath=//tbody[@id='userTable']/tr[3]/td[7]/form[2]/button",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "link=Lịch sử log",
+            "value": ""
+        },
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/logs",
+            "value": ""
+        }
+    ],
+
+    "LOG_MANAGEMENT_Delete_01": [
+        {
+            "command": "open",
+            "target": "http://localhost:8080/web/logs",
+            "value": ""
+        },
+        {
+            "command": "click",
+            "target": "css=path",
+            "value": ""
+        }
+    ]
 }
