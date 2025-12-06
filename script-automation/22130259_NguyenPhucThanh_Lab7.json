@@ -41,7 +41,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Đổi mật khẩu thành công"
         },
@@ -93,7 +93,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Mật khẩu cũ không đúng."
         },
@@ -145,7 +145,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Mật khẩu xác nhận không trùng khớp."
         },
@@ -197,7 +197,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Hãy nhập đầy đủ thông tin"
         },
@@ -249,7 +249,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Đổi mật khẩu không thành công. Mật khẩu mới quá ngắn"
         },
@@ -281,9 +281,9 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
-            "value": "Đổi số điện thoại thành công"
+            "value": "Cập nhật thông tin thành công."
         }
     ],
     "USER_ACCOUNT_ChangePhone_02": [
@@ -308,7 +308,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Đổi số điện thoại không thành công. Độ dài không hợp lệ"
         }
@@ -335,7 +335,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Đổi số điện thoại không thành công. Số điện thoại mới không hợp lệ"
         }
@@ -362,7 +362,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Đổi số điện thoại không thành công. Số điện thoại mới không hợp lệ"
         }
@@ -389,7 +389,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Hãy nhập đầy đủ thông tin"
         }
@@ -416,9 +416,9 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
-            "value": "Đổi tên người dùng thành công"
+            "value": "Cập nhật thông tin thành công."
         }
     ],
     "USER_ACCOUNT_ChangeUsername_02": [
@@ -443,7 +443,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Đổi tên người dùng không thành công. Tên không hợp lệ"
         }
@@ -470,7 +470,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Đổi tên người dùng không thành công. Tên không hợp lệ"
         }
@@ -497,7 +497,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Hãy nhập đầy đủ thông tin"
         }
@@ -529,7 +529,7 @@
             "value": ""
         },
         {
-            "command": "alertText",
+            "command": "assertText",
             "target": "id=message",
             "value": "Không được đổi email đăng ký"
         }
