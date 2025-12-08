@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>ODERMANAGER</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">OM-Display-1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/orderManagement<datalist><option>http://localhost:8080/web/orderManagement</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">OM-Search-1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/orderManagement<datalist><option>http://localhost:8080/web/orderManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleEditForm()']<datalist><option>xpath=//button[@onclick='toggleEditForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Tìm kiếm']/parent::*</option><option>xpath=//button</option><option>css=button.btn-find</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>name=orderID<datalist><option>name=orderID</option><option>xpath=//input[@name='orderID']</option><option>xpath=//form[@id='findOrderForm']/input</option><option>xpath=//input</option><option>css=input[name="orderID"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=orderID<datalist><option>name=orderID</option><option>xpath=//input[@name='orderID']</option><option>xpath=//form[@id='findOrderForm']/input</option><option>xpath=//input</option><option>css=input[name="orderID"]</option></datalist></td><td>20</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=//form[@id='findOrderForm']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã đơn hàng'])[1]/preceding::button[2]</option><option>xpath=//form/button</option><option>css=button[type="submit"]</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">OM-Search-2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/orderManagement<datalist><option>http://localhost:8080/web/orderManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleEditForm()']<datalist><option>xpath=//button[@onclick='toggleEditForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Tìm kiếm']/parent::*</option><option>xpath=//button</option><option>css=button.btn-find</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>name=productName<datalist><option>name=productName</option><option>xpath=//input[@name='productName']</option><option>xpath=//form[@id='findOrderForm']/input[2]</option><option>xpath=//input[2]</option><option>css=input[name="productName"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=productName<datalist><option>name=productName</option><option>xpath=//input[@name='productName']</option><option>xpath=//form[@id='findOrderForm']/input[2]</option><option>xpath=//input[2]</option><option>css=input[name="productName"]</option></datalist></td><td>Tài khoản Google Drive Vĩnh viễn</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=//form[@id='findOrderForm']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã đơn hàng'])[1]/preceding::button[2]</option><option>xpath=//form/button</option><option>css=button[type="submit"]</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">OM-Search-3</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/orderManagement<datalist><option>http://localhost:8080/web/orderManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleEditForm()']<datalist><option>xpath=//button[@onclick='toggleEditForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Tìm kiếm']/parent::*</option><option>xpath=//button</option><option>css=button.btn-find</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>name=orderID<datalist><option>name=orderID</option><option>xpath=//input[@name='orderID']</option><option>xpath=//form[@id='findOrderForm']/input</option><option>xpath=//input</option><option>css=input[name="orderID"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=orderID<datalist><option>name=orderID</option><option>xpath=//input[@name='orderID']</option><option>xpath=//form[@id='findOrderForm']/input</option><option>xpath=//input</option><option>css=input[name="orderID"]</option></datalist></td><td>999999</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=//form[@id='findOrderForm']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã đơn hàng'])[1]/preceding::button[2]</option><option>xpath=//form/button</option><option>css=button[type="submit"]</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">OM-Search-4</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/orderManagement<datalist><option>http://localhost:8080/web/orderManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleEditForm()']<datalist><option>xpath=//button[@onclick='toggleEditForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Tìm kiếm']/parent::*</option><option>xpath=//button</option><option>css=button.btn-find</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>name=status<datalist><option>name=status</option><option>xpath=//select[@name='status']</option><option>xpath=//form[@id='findOrderForm']/select</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::select[1]</option><option>xpath=//select</option><option>css=select[name="status"]</option></datalist></td><td></td></tr>
+<tr><td>select</td><td>name=status<datalist><option>name=status</option><option>xpath=//select[@name='status']</option><option>xpath=//form[@id='findOrderForm']/select</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::select[1]</option><option>xpath=//select</option><option>css=select[name="status"]</option></datalist></td><td>label=Đã thanh toán</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=//form[@id='findOrderForm']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã đơn hàng'])[1]/preceding::button[2]</option><option>xpath=//form/button</option><option>css=button[type="submit"]</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">OM-Search-5</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/orderManagement<datalist><option>http://localhost:8080/web/orderManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleEditForm()']<datalist><option>xpath=//button[@onclick='toggleEditForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Tìm kiếm']/parent::*</option><option>xpath=//button</option><option>css=button.btn-find</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>name=status<datalist><option>name=status</option><option>xpath=//select[@name='status']</option><option>xpath=//form[@id='findOrderForm']/select</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::select[1]</option><option>xpath=//select</option><option>css=select[name="status"]</option></datalist></td><td></td></tr>
+<tr><td>select</td><td>name=status<datalist><option>name=status</option><option>xpath=//select[@name='status']</option><option>xpath=//form[@id='findOrderForm']/select</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::select[1]</option><option>xpath=//select</option><option>css=select[name="status"]</option></datalist></td><td>label=Chưa thanh toán</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=//form[@id='findOrderForm']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã đơn hàng'])[1]/preceding::button[2]</option><option>xpath=//form/button</option><option>css=button[type="submit"]</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">OM-Search-6</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/orderManagement<datalist><option>http://localhost:8080/web/orderManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleEditForm()']<datalist><option>xpath=//button[@onclick='toggleEditForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Tìm kiếm']/parent::*</option><option>xpath=//button</option><option>css=button.btn-find</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>name=status<datalist><option>name=status</option><option>xpath=//select[@name='status']</option><option>xpath=//form[@id='findOrderForm']/select</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::select[1]</option><option>xpath=//select</option><option>css=select[name="status"]</option></datalist></td><td></td></tr>
+<tr><td>select</td><td>name=status<datalist><option>name=status</option><option>xpath=//select[@name='status']</option><option>xpath=//form[@id='findOrderForm']/select</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::select[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::select[1]</option><option>xpath=//select</option><option>css=select[name="status"]</option></datalist></td><td>label=Chờ xử lý</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=//form[@id='findOrderForm']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã đơn hàng'])[1]/preceding::button[2]</option><option>xpath=//form/button</option><option>css=button[type="submit"]</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">OM-Search-7</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/orderManagement<datalist><option>http://localhost:8080/web/orderManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã đơn hàng'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Khách hàng'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Reset']/parent::*</option><option>xpath=//a/button</option><option>css=button.btn-reset</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">OM-Process-1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/orderManagement<datalist><option>http://localhost:8080/web/orderManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleEditForm()']<datalist><option>xpath=//button[@onclick='toggleEditForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Tìm kiếm']/parent::*</option><option>xpath=//button</option><option>css=button.btn-find</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>name=productName<datalist><option>name=productName</option><option>xpath=//input[@name='productName']</option><option>xpath=//form[@id='findOrderForm']/input[2]</option><option>xpath=//input[2]</option><option>css=input[name="productName"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=productName<datalist><option>name=productName</option><option>xpath=//input[@name='productName']</option><option>xpath=//form[@id='findOrderForm']/input[2]</option><option>xpath=//input[2]</option><option>css=input[name="productName"]</option></datalist></td><td>Tài khoản Nhaccuatui Vip 12 Tháng</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=//form[@id='findOrderForm']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý đơn hàng'])[3]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã đơn hàng'])[1]/preceding::button[2]</option><option>xpath=//form/button</option><option>css=button[type="submit"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//tbody[@id='bankTable']/tr/td[7]/form/button<datalist><option>xpath=//tbody[@id='bankTable']/tr/td[7]/form/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chưa thanh toán'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tài khoản Nhaccuatui Vip 12 Tháng'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Xử lý']/parent::*</option><option>xpath=//td[7]/form/button</option><option>css=button.btn-sendkey</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">OM-Process-2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/orderManagement<datalist><option>http://localhost:8080/web/orderManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//tbody[@id='bankTable']/tr[10]/td[7]/form/button<datalist><option>xpath=//tbody[@id='bankTable']/tr[10]/td[7]/form/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chưa thanh toán'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nâng cấp Google Drive One'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Anh Ba'])[10]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nâng cấp Google Drive One'])[3]/preceding::button[1]</option><option>xpath=//tr[10]/td[7]/form/button</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/sendKey?oid=26<datalist><option>http://localhost:8080/web/sendKey?oid=26</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">OM-Delete-1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/orderManagement<datalist><option>http://localhost:8080/web/orderManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=path<datalist><option>css=path</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

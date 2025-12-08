@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>USER_PRODUCT</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_PRODUCT_Display_01</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//img[@alt='Tài khoản Notion Pro']<datalist><option>xpath=//img[@alt='Tài khoản Notion Pro']</option><option>xpath=//div[@id='section1']/div[2]/a[4]/div/img</option><option>xpath=//a[4]/div/img</option></datalist></td><td></td></tr>
+<tr><td>verifyLocation</td><td>http://localhost:8080/web/ProductDetail?id=33<datalist><option>http://localhost:8080/web/ProductDetail?id=33</option></datalist></td><td></td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_PRODUCT_Display_02</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=32<datalist><option>http://localhost:8080/web/ProductDetail?id=32</option></datalist></td><td></td></tr>
+<tr><td>verifyLocation</td><td>http://localhost:8080/web/ProductDetail?id=32<datalist><option>http://localhost:8080/web/ProductDetail?id=33</option><option>http://localhost:8080/web/ProductDetail?id=32</option></datalist></td><td></td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_PRODUCT_Display_03</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=99999<datalist><option>http://localhost:8080/web/ProductDetail?id=99999</option></datalist></td><td></td></tr>
+<tr><td>verifyTitle</td><td>glob:*404*<datalist><option>glob:*500*</option><option>glob:*404*</option></datalist></td><td></td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_PRODUCT_Display_04</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//img[@alt='Tài khoản Notion Pro']<datalist><option>xpath=//img[@alt='Tài khoản Notion Pro']</option><option>xpath=//div[@id='section1']/div[2]/a[4]/div/img</option><option>xpath=//a[4]/div/img</option></datalist></td><td></td></tr>
+<tr><td>verifyLocation</td><td>http://localhost:8080/web/ProductDetail?id=33<datalist><option>http://localhost:8080/web/ProductDetail?id=33</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//img[contains(@src,'https://api.keyshop.vn/images/1680508091536-Cclean%20-%201%20VN.jpg')]<datalist><option>xpath=//img[contains(@src,'https://api.keyshop.vn/images/1680508091536-Cclean%20-%201%20VN.jpg')]</option><option>xpath=//div[@id='section_normal_2']/div[2]/div/div[2]/div[3]/a/div/img</option><option>xpath=//div[3]/a/div/img</option></datalist></td><td></td></tr>
+<tr><td>verifyLocation</td><td>http://localhost:8080/web/ProductDetail?id=32<datalist><option>http://localhost:8080/web/ProductDetail?id=32</option></datalist></td><td></td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_PRODUCT_CheckButton_01</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=33<datalist><option>http://localhost:8080/web/ProductDetail?id=33</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//a[@id='add-to-cart-btn']/span<datalist><option>xpath=//a[@id='add-to-cart-btn']/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mua ngay'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Notion'])[2]/following::span[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sản phẩm liên quan'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='DANH MỤC SẢN PHẨM'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Thêm giỏ hàng']/parent::*</option><option>xpath=//div[2]/div/div/div[3]/a/span</option><option>css=#add-to-cart-btn > span.text</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>xpath=//div[@id='body_page']/div/div[2]/div/div[2]/div<datalist><option>xpath=//div[@id='body_page']/div/div[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giỏ hàng'])[2]/following::div[1]</option><option>xpath=//div[2]/div/div[2]</option><option>css=div.list-item</option><option>xpath=//div[@id='body_page']/div/div[2]/div/div[2]/div</option></datalist></td><td>Tài khoản Notion Pro</td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_PRODUCT_CheckButton_02</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=23<datalist><option>http://localhost:8080/web/ProductDetail?id=23</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//a[@id='add-to-cart-btn']/span<datalist><option>xpath=//a[@id='add-to-cart-btn']/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mua ngay'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Google Drive'])[2]/following::span[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sản phẩm liên quan'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='DANH MỤC SẢN PHẨM'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Thêm giỏ hàng']/parent::*</option><option>xpath=//div[2]/div/div/div[3]/a/span</option><option>css=#add-to-cart-btn > span.text</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+<tr><td>assertAlert</td><td>Sản phẩm hết hàng<datalist><option>Sản phẩm hết hàng</option></datalist></td><td></td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_PRODUCT_CheckButton_03</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=33<datalist><option>http://localhost:8080/web/ProductDetail?id=33</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@type='button']<datalist><option>xpath=//button[@type='button']</option><option>xpath=//div[@id='section_normal_2']/div[2]/div/div/div[3]/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Notion'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tài khoản Notion Pro'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Thêm giỏ hàng'])[1]/preceding::button[1]</option><option>xpath=//div[3]/button</option><option>css=button.elevation-0.btn-buy</option></datalist></td><td></td></tr>
+<tr><td>assertTitle</td><td>Trang thanh toán<datalist><option>Trang thanh toán</option></datalist></td><td></td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_PRODUCT_CheckButton_04</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=23<datalist><option>http://localhost:8080/web/ProductDetail?id=23</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section_normal_2']/div[2]/div/div/div[3]/button/span<datalist><option>xpath=//div[@id='section_normal_2']/div[2]/div/div/div[3]/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Google Drive'])[2]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nâng cấp Google Drive One'])[2]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Thêm giỏ hàng'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sản phẩm liên quan'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Mua ngay']/parent::*</option><option>xpath=//button/span</option><option>css=button.elevation-0.btn-buy > span.text</option></datalist></td><td></td></tr>
+<tr><td>assertAlert</td><td>Sản phẩm hết hàng<datalist><option>Sản phẩm hết hàng</option></datalist></td><td></td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_PRODUCT_CheckButton_05</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=33<datalist><option>http://localhost:8080/web/ProductDetail?id=33</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section_normal_2']/div[2]/div/div[2]/div[2]/a[2]/i<datalist><option>xpath=//div[@id='section_normal_2']/div[2]/div/div[2]/div[2]/a[2]/i</option><option>xpath=//div[2]/a[2]/i</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>xpath=//div[@id='body_page']/div/div[2]/div[3]/div[2]/div<datalist><option>xpath=//div[@id='body_page']/div/div[2]/div/div[2]/div</option><option>xpath=//div[@id='body_page']/div/div[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giỏ hàng'])[2]/following::div[1]</option><option>xpath=//div[2]/div/div[2]</option><option>css=div.list-item</option><option>xpath=//div[@id='body_page']/div/div[2]/div[2]/div[2]</option><option>xpath=//div[@id='body_page']/div/div[2]/div[2]/div[2]/div</option><option>xpath=//div[@id='body_page']/div/div[2]/div[3]/div[2]/div</option></datalist></td><td>Glary Utilities PRO 5</td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='body_page']/div/div[2]/div[3]/div[2]/div<datalist><option>xpath=//div[@id='body_page']/div/div[2]/div[3]/div[2]/div</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Thời hạn: 1 năm'])[1]/following::div[8]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tài khoản Notion Pro'])[1]/following::div[9]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Thời hạn: 1 năm'])[2]/preceding::div[1]</option><option>xpath=//div[3]/div[2]/div</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">USER_PRODUCT_CheckButton_06</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=33<datalist><option>http://localhost:8080/web/ProductDetail?id=33</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Xem tất cả<datalist><option>link=Xem tất cả</option><option>xpath=//a[contains(text(),'Xem tất cả')]</option><option>xpath=//div[@id='section_normal_2']/div/div[2]/div[3]/div/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tài khoản Notion Pro'])[2]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Xem tất cả']/parent::*</option><option>xpath=//div[2]/div[3]/div/a</option><option>css=div.see-all > a</option></datalist></td><td></td></tr>
+<tr><td>verifyLocation</td><td>http://localhost:8080/web/Comment?id=33<datalist><option>http://localhost:8080/web/Comment?id=33</option><option>http://localhost:8080/web/Comment?id=33</option><option>http://localhost:8080/web/Comment?id=32</option></datalist></td><td></td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

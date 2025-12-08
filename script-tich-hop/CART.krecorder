@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>CART</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CART-Display-1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a[2]/span<datalist><option>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a[2]/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giỏ hàng'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Liên hệ hỗ trợ'])[1]/following::span[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giải trí'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Học tập'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Đăng nhập']/parent::*</option><option>xpath=//a[2]/span</option><option>css=a.bt_user > span.text</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/login<datalist><option>http://localhost:8080/web/login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=email<datalist><option>id=email</option><option>name=email</option><option>xpath=//input[@id='email']</option><option>xpath=//form[@id='loginForm']/input</option><option>xpath=//input</option><option>css=#email</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=email<datalist><option>id=email</option><option>name=email</option><option>xpath=//input[@id='email']</option><option>xpath=//form[@id='loginForm']/input</option><option>xpath=//input</option><option>css=#email</option></datalist></td><td>22130259@st.hcmuaf.edu.vn</td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>xpath=//input[@id='password']</option><option>xpath=//form[@id='loginForm']/input[2]</option><option>xpath=//input[2]</option><option>css=#password</option></datalist></td><td>111</td></tr>
+<tr><td>click</td><td>id=loginForm<datalist><option>id=loginForm</option><option>xpath=//form[@id='loginForm']</option><option>xpath=//div[@id='login']/div/form</option><option>xpath=//form</option><option>css=#loginForm</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//input[@value='Đăng nhập']<datalist><option>xpath=//input[@value='Đăng nhập']</option><option>xpath=//form[@id='loginForm']/input[3]</option><option>xpath=//input[3]</option><option>css=input.submit</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span<datalist><option>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Liên hệ hỗ trợ'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Trung tâm trợ giúp'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chào, Anh ...'])[1]/preceding::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giải trí'])[1]/preceding::span[3]</option><option>xpath=//*/text()[normalize-space(.)='Giỏ hàng']/parent::*</option><option>xpath=//a/span</option><option>css=span.text</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CART-Display-2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section1']/div[2]/a/div[2]/span<datalist><option>xpath=//div[@id='section1']/div[2]/a/div[2]/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Xem toàn bộ'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='CCleaner Professional Plus 1 PC - Thời hạn 1 Năm'])[1]/preceding::span[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nâng cấp Google Drive One'])[1]/preceding::span[6]</option><option>xpath=//*/text()[normalize-space(.)='Bản quyền Office 2019']/parent::*</option><option>xpath=//div[2]/span</option><option>css=span.title-p.t-none.t-black.d-block</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=26<datalist><option>http://localhost:8080/web/ProductDetail?id=26</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//a[@id='add-to-cart-btn']/span<datalist><option>xpath=//a[@id='add-to-cart-btn']/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mua ngay'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Microsoft'])[2]/following::span[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sản phẩm liên quan'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='DANH MỤC SẢN PHẨM'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Thêm giỏ hàng']/parent::*</option><option>xpath=//div[2]/div/div/div[3]/a/span</option><option>css=#add-to-cart-btn > span.text</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a<datalist><option>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Liên hệ hỗ trợ'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Trung tâm trợ giúp'])[1]/following::a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chào, Anh ...'])[1]/preceding::a[1]</option><option>xpath=//a[contains(@href, 'Cart')]</option><option>xpath=//div[3]/a</option><option>css=a.bt_gio_hang</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CART-Update-1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>chrome://newtab/</option><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=+<datalist><option>link=+</option><option>xpath=//a[contains(text(),'+')]</option><option>xpath=//div[@id='body_page']/div/div[2]/div/div[2]/div[2]/div/a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Thời hạn: 1 năm'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Bản quyền Office 2019'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Đơn hàng của bạn'])[1]/preceding::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Bản quyền Office 2019'])[2]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='+']/parent::*</option><option>xpath=//div[2]/div[2]/div/a[2]</option><option>css=a.btn-add-product</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CART-Update-2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=-<datalist></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CART-Update-3</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=-<datalist><option>link=-</option><option>xpath=//a[contains(text(),'-')]</option><option>xpath=//div[@id='body_page']/div/div[2]/div/div[2]/div[2]/div/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Thời hạn: 6 tháng'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tài khoản Coursera Plus 6 Tháng'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Đơn hàng của bạn'])[1]/preceding::a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tài khoản Coursera Plus 6...'])[1]/preceding::a[3]</option><option>xpath=//*/text()[normalize-space(.)='-']/parent::*</option><option>xpath=//a[contains(@href, '#')]</option><option>xpath=//div[2]/div[2]/div/a</option><option>css=a.btn-sub-product</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CART-Delete-1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section1']/div[2]/a/div[2]/span<datalist><option>xpath=//div[@id='section1']/div[2]/a/div[2]/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Xem toàn bộ'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='CCleaner Professional Plus 1 PC - Thời hạn 1 Năm'])[1]/preceding::span[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nâng cấp Google Drive One'])[1]/preceding::span[6]</option><option>xpath=//*/text()[normalize-space(.)='Bản quyền Office 2019']/parent::*</option><option>xpath=//div[2]/span</option><option>css=span.title-p.t-none.t-black.d-block</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=26<datalist><option>http://localhost:8080/web/ProductDetail?id=26</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//a[@id='add-to-cart-btn']/span<datalist><option>xpath=//a[@id='add-to-cart-btn']/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mua ngay'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Microsoft'])[2]/following::span[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sản phẩm liên quan'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='DANH MỤC SẢN PHẨM'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Thêm giỏ hàng']/parent::*</option><option>xpath=//div[2]/div/div/div[3]/a/span</option><option>css=#add-to-cart-btn > span.text</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a<datalist><option>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Liên hệ hỗ trợ'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Trung tâm trợ giúp'])[1]/following::a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chào, Anh ...'])[1]/preceding::a[1]</option><option>xpath=//a[contains(@href, 'Cart')]</option><option>xpath=//div[3]/a</option><option>css=a.bt_gio_hang</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='body_page']/div/div[2]/div/div[2]/a/div/div/i<datalist><option>xpath=//div[@id='body_page']/div/div[2]/div/div[2]/a/div/div/i</option><option>xpath=//div/i</option><option>css=i.fas.fa-trash-alt.fa-lg</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CART-Delete-2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=26<datalist><option>http://localhost:8080/web/ProductDetail?id=26</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//a[@id='add-to-cart-btn']/i<datalist><option>xpath=//a[@id='add-to-cart-btn']/i</option><option>xpath=//div[2]/div/div/div[3]/a/i</option><option>css=#add-to-cart-btn > i.fas.fa-shopping-cart.fa-lg</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Giải trí<datalist><option>link=Giải trí</option><option>xpath=//a[contains(text(),'Giải trí')]</option><option>xpath=//div[@id='section_normal_1']/div/div[3]/div/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chào, Anh ...'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giỏ hàng'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Học tập'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Làm việc'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Giải trí']/parent::*</option><option>xpath=//a[contains(@href, 'products?category=Giải trí')]</option><option>xpath=//div[3]/div/a</option><option>css=a.htext</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/products?category=Gi%E1%BA%A3i%20tr%C3%AD<datalist><option>http://localhost:8080/web/products?category=Gi%E1%BA%A3i%20tr%C3%AD</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//img[@alt='Tài khoản Nhaccuatui Vip 12 Tháng']<datalist><option>xpath=//img[@alt='Tài khoản Nhaccuatui Vip 12 Tháng']</option><option>xpath=//div[@id='contentProduct']/a/div/img</option><option>xpath=//div/img</option><option>css=img.img-p</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=15<datalist><option>http://localhost:8080/web/ProductDetail?id=15</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=add-to-cart-btn<datalist><option>id=add-to-cart-btn</option><option>link=Thêm giỏ hàng</option><option>xpath=//a[@id='add-to-cart-btn']</option><option>xpath=//div[@id='section_normal_2']/div[2]/div/div/div[3]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mua ngay'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='NCT Corporation'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sản phẩm liên quan'])[1]/preceding::a[1]</option><option>xpath=//a[contains(@href, '#')]</option><option>xpath=//div[2]/div/div/div[3]/a</option><option>css=#add-to-cart-btn</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a<datalist><option>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Liên hệ hỗ trợ'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Trung tâm trợ giúp'])[1]/following::a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chào, Anh ...'])[1]/preceding::a[1]</option><option>xpath=//a[contains(@href, 'Cart')]</option><option>xpath=//div[3]/a</option><option>css=a.bt_gio_hang</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='body_page']/div/div[2]/div/div[2]/a/div/div/i<datalist><option>xpath=//div[@id='body_page']/div/div[2]/div/div[2]/a/div/div/i</option><option>xpath=//div/i</option><option>css=i.fas.fa-trash-alt.fa-lg</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CART-Coupon-1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Học tập<datalist><option>link=Học tập</option><option>xpath=//a[contains(text(),'Học tập')]</option><option>xpath=//div[@id='section_normal_1']/div/div[3]/div/a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giải trí'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chào, Anh ...'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Làm việc'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tiện ích'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Học tập']/parent::*</option><option>xpath=//a[contains(@href, 'products?category=Học tập')]</option><option>xpath=//div[3]/div/a[2]</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/products?category=H%E1%BB%8Dc%20t%E1%BA%ADp<datalist><option>http://localhost:8080/web/products?category=H%E1%BB%8Dc%20t%E1%BA%ADp</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//img[@alt='Tài khoản Coursera Plus 6 Tháng']<datalist><option>xpath=//img[@alt='Tài khoản Coursera Plus 6 Tháng']</option><option>xpath=//div[@id='contentProduct']/a/div/img</option><option>xpath=//div/img</option><option>css=img.img-p</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=18<datalist><option>http://localhost:8080/web/ProductDetail?id=18</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//a[@id='add-to-cart-btn']/i<datalist><option>xpath=//a[@id='add-to-cart-btn']/i</option><option>xpath=//div[2]/div/div/div[3]/a/i</option><option>css=#add-to-cart-btn > i.fas.fa-shopping-cart.fa-lg</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span<datalist><option>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Liên hệ hỗ trợ'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Trung tâm trợ giúp'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chào, Anh ...'])[1]/preceding::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giải trí'])[1]/preceding::span[3]</option><option>xpath=//*/text()[normalize-space(.)='Giỏ hàng']/parent::*</option><option>xpath=//a/span</option><option>css=span.text</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=discount-input<datalist><option>id=discount-input</option><option>xpath=//input[@id='discount-input']</option><option>xpath=//div[@id='body_page']/div[2]/div/div[4]/input</option><option>xpath=//div[4]/input</option><option>css=#discount-input</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=discount-input<datalist><option>id=discount-input</option><option>xpath=//input[@id='discount-input']</option><option>xpath=//div[@id='body_page']/div[2]/div/div[4]/input</option><option>xpath=//div[4]/input</option><option>css=#discount-input</option></datalist></td><td>101</td></tr>
+<tr><td>click</td><td>id=apply-button<datalist><option>id=apply-button</option><option>xpath=//button[@id='apply-button']</option><option>xpath=//div[@id='body_page']/div[2]/div/div[4]/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tạm tính'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='X1'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Thanh toán ngay'])[1]/preceding::button[1]</option><option>xpath=//div[4]/button</option><option>css=#apply-button</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CART-Coupon-2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=26<datalist><option>http://localhost:8080/web/ProductDetail?id=26</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//a[@id='add-to-cart-btn']/i<datalist><option>xpath=//a[@id='add-to-cart-btn']/i</option><option>xpath=//div[2]/div/div/div[3]/a/i</option><option>css=#add-to-cart-btn > i.fas.fa-shopping-cart.fa-lg</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span<datalist><option>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Liên hệ hỗ trợ'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Trung tâm trợ giúp'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chào, Anh ...'])[1]/preceding::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giải trí'])[1]/preceding::span[3]</option><option>xpath=//*/text()[normalize-space(.)='Giỏ hàng']/parent::*</option><option>xpath=//a/span</option><option>css=span.text</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=discount-input<datalist><option>id=discount-input</option><option>xpath=//input[@id='discount-input']</option><option>xpath=//div[@id='body_page']/div[2]/div/div[5]/input</option><option>xpath=//div[5]/input</option><option>css=#discount-input</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=discount-input<datalist><option>id=discount-input</option><option>xpath=//input[@id='discount-input']</option><option>xpath=//div[@id='body_page']/div[2]/div/div[5]/input</option><option>xpath=//div[5]/input</option><option>css=#discount-input</option></datalist></td><td>934</td></tr>
+<tr><td>click</td><td>xpath=//button[@id='apply-button']/span<datalist><option>xpath=//button[@id='apply-button']/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tạm tính'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='X1'])[2]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Thanh toán ngay'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='chính sách riêng tư của chúng tôi.'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Áp dụng']/parent::*</option><option>xpath=//button/span</option><option>css=#apply-button > span.font-sz16</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CART-Coupon-3</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>chrome://newtab/</option><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/products?category=Gi%E1%BA%A3i%20tr%C3%AD<datalist><option>http://localhost:8080/web/products?category=Gi%E1%BA%A3i%20tr%C3%AD</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//img[@alt='Tài khoản Nhaccuatui Vip 12 Tháng']<datalist><option>xpath=//img[@alt='Tài khoản Nhaccuatui Vip 12 Tháng']</option><option>xpath=//div[@id='contentProduct']/a/div/img</option><option>xpath=//div/img</option><option>css=img.img-p</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/ProductDetail?id=15<datalist><option>http://localhost:8080/web/ProductDetail?id=15</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//a[@id='add-to-cart-btn']/span<datalist><option>xpath=//a[@id='add-to-cart-btn']/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mua ngay'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='NCT Corporation'])[2]/following::span[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sản phẩm liên quan'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='DANH MỤC SẢN PHẨM'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Thêm giỏ hàng']/parent::*</option><option>xpath=//div[2]/div/div/div[3]/a/span</option><option>css=#add-to-cart-btn > span.text</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span<datalist><option>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Liên hệ hỗ trợ'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Trung tâm trợ giúp'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chào, Anh ...'])[1]/preceding::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giải trí'])[1]/preceding::span[3]</option><option>xpath=//*/text()[normalize-space(.)='Giỏ hàng']/parent::*</option><option>xpath=//a/span</option><option>css=span.text</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/Cart<datalist><option>http://localhost:8080/web/Cart</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@id='apply-button']/span<datalist><option>xpath=//button[@id='apply-button']/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tạm tính'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='X3'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Thanh toán ngay'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='chính sách riêng tư của chúng tôi.'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Áp dụng']/parent::*</option><option>xpath=//button/span</option><option>css=#apply-button > span.font-sz16</option></datalist></td><td></td></tr>
+<tr><td>assertAlert</td><td>Vui lòng nhập mã giảm giá!<datalist><option>Vui lòng nhập mã giảm giá!</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
