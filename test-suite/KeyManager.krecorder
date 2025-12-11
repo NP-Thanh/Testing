@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>KeyManager</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">KEY_MGT_Display_1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Đăng nhập<datalist><option>link=Đăng nhập</option><option>xpath=//div[@id='section_normal_1']/div/div[2]/div[3]/a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giỏ hàng'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Liên hệ hỗ trợ'])[1]/following::a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giải trí'])[1]/preceding::a[1]</option><option>xpath=//a[contains(@href, 'login')]</option><option>xpath=//div[3]/a[2]</option><option>css=a.bt_user</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/login<datalist><option>http://localhost:8080/web/login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=email<datalist><option>id=email</option><option>name=email</option><option>xpath=//input[@id='email']</option><option>xpath=//form[@id='loginForm']/input</option><option>xpath=//input</option><option>css=#email</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=email<datalist><option>id=email</option><option>name=email</option><option>xpath=//input[@id='email']</option><option>xpath=//form[@id='loginForm']/input</option><option>xpath=//input</option><option>css=#email</option></datalist></td><td>xhoang345@gmail.com</td></tr>
+<tr><td>click</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>xpath=//input[@id='password']</option><option>xpath=//form[@id='loginForm']/input[2]</option><option>xpath=//input[2]</option><option>css=#password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>xpath=//input[@id='password']</option><option>xpath=//form[@id='loginForm']/input[2]</option><option>xpath=//input[2]</option><option>css=#password</option></datalist></td><td>123456</td></tr>
+<tr><td>click</td><td>xpath=//input[@value='Đăng nhập']<datalist><option>xpath=//input[@value='Đăng nhập']</option><option>xpath=//form[@id='loginForm']/input[3]</option><option>xpath=//input[3]</option><option>css=input.submit</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/home<datalist><option>http://localhost:8080/web/home</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/web/KeyManagement<datalist><option>http://localhost:8080/web/KeyManagement</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">KEY_MGT_Search_1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/KeyManagement<datalist><option>http://localhost:8080/web/KeyManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleFind()']<datalist><option>xpath=//button[@onclick='toggleFind()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý Key'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+ Thêm Key'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Tìm kiếm']/parent::*</option><option>xpath=//button</option><option>css=button.btn-find</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=searchKeyID<datalist><option>id=searchKeyID</option><option>name=keyID</option><option>xpath=//input[@id='searchKeyID']</option><option>xpath=//form[@id='findKeyForm']/input</option><option>xpath=//input</option><option>css=#searchKeyID</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=searchKeyID<datalist><option>id=searchKeyID</option><option>name=keyID</option><option>xpath=//input[@id='searchKeyID']</option><option>xpath=//form[@id='findKeyForm']/input</option><option>xpath=//input</option><option>css=#searchKeyID</option></datalist></td><td>104</td></tr>
+<tr><td>click</td><td>id=searchBtn<datalist><option>id=searchBtn</option><option>xpath=//button[@id='searchBtn']</option><option>xpath=//form[@id='findKeyForm']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý Key'])[2]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+ Thêm Key'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='LƯU'])[1]/preceding::button[2]</option><option>xpath=//form/button</option><option>css=#searchBtn</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">KEY_MGT_Search_2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/KeyManagement<datalist><option>http://localhost:8080/web/KeyManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleFind()']<datalist><option>xpath=//button[@onclick='toggleFind()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý Key'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+ Thêm Key'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Tìm kiếm']/parent::*</option><option>xpath=//button</option><option>css=button.btn-find</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=searchKeyID<datalist><option>id=searchKeyID</option><option>name=keyID</option><option>xpath=//input[@id='searchKeyID']</option><option>xpath=//form[@id='findKeyForm']/input</option><option>xpath=//input</option><option>css=#searchKeyID</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=searchKeyID<datalist><option>id=searchKeyID</option><option>name=keyID</option><option>xpath=//input[@id='searchKeyID']</option><option>xpath=//form[@id='findKeyForm']/input</option><option>xpath=//input</option><option>css=#searchKeyID</option></datalist></td><td>150</td></tr>
+<tr><td>click</td><td>id=searchBtn<datalist><option>id=searchBtn</option><option>xpath=//button[@id='searchBtn']</option><option>xpath=//form[@id='findKeyForm']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quản lý Key'])[2]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+ Thêm Key'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='LƯU'])[1]/preceding::button[2]</option><option>xpath=//form/button</option><option>css=#searchBtn</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">KEY_MGT_Add_1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/KeyManagement<datalist></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleAddForm()']<datalist><option>xpath=//button[@onclick='toggleAddForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='LƯU'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã Key:'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='+ Thêm Key']/parent::*</option><option>xpath=//button[2]</option><option>css=button.btn-add</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=pid<datalist><option>id=pid</option><option>name=pid</option><option>xpath=//input[@id='pid']</option><option>xpath=//form[@id='addKeyForm']/input[2]</option><option>xpath=//input[2]</option><option>css=#pid</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=pid<datalist><option>id=pid</option><option>name=pid</option><option>xpath=//input[@id='pid']</option><option>xpath=//form[@id='addKeyForm']/input[2]</option><option>xpath=//input[2]</option><option>css=#pid</option></datalist></td><td>16</td></tr>
+<tr><td>click</td><td>id=addKeyName<datalist><option>id=addKeyName</option><option>name=keys</option><option>xpath=//input[@id='addKeyName']</option><option>xpath=//form[@id='addKeyForm']/input[3]</option><option>xpath=//input[3]</option><option>css=#addKeyName</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=addKeyName<datalist><option>id=addKeyName</option><option>name=keys</option><option>xpath=//input[@id='addKeyName']</option><option>xpath=//form[@id='addKeyForm']/input[3]</option><option>xpath=//input[3]</option><option>css=#addKeyName</option></datalist></td><td>KHFS-391J-SF45</td></tr>
+<tr><td>click</td><td>id=saveBtn<datalist><option>id=saveBtn</option><option>xpath=//button[@id='saveBtn']</option><option>xpath=//form[@id='addKeyForm']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã sản phẩm hợp lệ!'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+ Thêm Key'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã Key:'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Key:'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='LƯU']/parent::*</option><option>xpath=//form[2]/button</option><option>css=#saveBtn</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleAddForm()']<datalist><option>xpath=//button[@onclick='toggleAddForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='LƯU'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã Key:'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='+ Thêm Key']/parent::*</option><option>xpath=//button[2]</option><option>css=button.btn-add</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">KEY_MGT_Add_2</td></tr>
+</thead>
+<tbody>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleAddForm()']<datalist><option>xpath=//button[@onclick='toggleAddForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='LƯU'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã Key:'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='+ Thêm Key']/parent::*</option><option>xpath=//button[2]</option><option>css=button.btn-add</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=pid<datalist><option>id=pid</option><option>name=pid</option><option>xpath=//input[@id='pid']</option><option>xpath=//form[@id='addKeyForm']/input[2]</option><option>xpath=//input[2]</option><option>css=#pid</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=pid<datalist><option>id=pid</option><option>name=pid</option><option>xpath=//input[@id='pid']</option><option>xpath=//form[@id='addKeyForm']/input[2]</option><option>xpath=//input[2]</option><option>css=#pid</option></datalist></td><td>17</td></tr>
+<tr><td>click</td><td>id=addKeyName<datalist><option>id=addKeyName</option><option>name=keys</option><option>xpath=//input[@id='addKeyName']</option><option>xpath=//form[@id='addKeyForm']/input[3]</option><option>xpath=//input[3]</option><option>css=#addKeyName</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=saveBtn<datalist><option>id=saveBtn</option><option>xpath=//button[@id='saveBtn']</option><option>xpath=//form[@id='addKeyForm']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã sản phẩm hợp lệ!'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='+ Thêm Key'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã Key:'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Key:'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='LƯU']/parent::*</option><option>xpath=//form[2]/button</option><option>css=#saveBtn</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleAddForm()']<datalist><option>xpath=//button[@onclick='toggleAddForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='LƯU'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã Key:'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='+ Thêm Key']/parent::*</option><option>xpath=//button[2]</option><option>css=button.btn-add</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">KEY_MGT_Add_3</td></tr>
+</thead>
+<tbody>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleAddForm()']<datalist><option>xpath=//button[@onclick='toggleAddForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='LƯU'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã Key:'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='+ Thêm Key']/parent::*</option><option>xpath=//button[2]</option><option>css=button.btn-add</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=pid<datalist><option>id=pid</option><option>name=pid</option><option>xpath=//input[@id='pid']</option><option>xpath=//form[@id='addKeyForm']/input[2]</option><option>xpath=//input[2]</option><option>css=#pid</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=pid<datalist><option>id=pid</option><option>name=pid</option><option>xpath=//input[@id='pid']</option><option>xpath=//form[@id='addKeyForm']/input[2]</option><option>xpath=//input[2]</option><option>css=#pid</option></datalist></td><td>@</td></tr>
+<tr><td>click</td><td>xpath=//button[@onclick='toggleAddForm()']<datalist><option>xpath=//button[@onclick='toggleAddForm()']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[2]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tìm kiếm'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='LƯU'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã Key:'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='+ Thêm Key']/parent::*</option><option>xpath=//button[2]</option><option>css=button.btn-add</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">KEY_MGT_Update_1</td></tr>
+</thead>
+<tbody>
+<tr><td>click</td><td>xpath=//tbody[@id='keyTable']/tr/td[7]/div/button<datalist><option>xpath=//tbody[@id='keyTable']/tr/td[7]/div/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chưa xuất'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Giải trí'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='KHFS-391J-GLXY'])[2]/preceding::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Galaxy Play Gói Cao Cấp'])[2]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Update']/parent::*</option><option>xpath=//td[7]/div/button</option><option>css=button.edit-btn</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=editNameKey<datalist><option>id=editNameKey</option><option>name=kName</option><option>xpath=//input[@id='editNameKey']</option><option>xpath=//div[@id='editKeyDetails']/form/table/tbody/tr[2]/td[2]/input</option><option>xpath=//tr[2]/td[2]/input</option><option>css=#editNameKey</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=editNameKey<datalist><option>id=editNameKey</option><option>name=kName</option><option>xpath=//input[@id='editNameKey']</option><option>xpath=//div[@id='editKeyDetails']/form/table/tbody/tr[2]/td[2]/input</option><option>xpath=//tr[2]/td[2]/input</option><option>css=#editNameKey</option></datalist></td><td>KHFS-391J-GLXYPRO</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='editKeyDetails']/form/div/button<datalist><option>xpath=//div[@id='editKeyDetails']/form/div/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hình ảnh (URL):'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Loại:'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hủy'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mã Key'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Lưu']/parent::*</option><option>xpath=//div/button</option><option>css=div.d-flex > button[type="submit"]</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">KEY_MGT_Delete_1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/web/KeyManagement<datalist><option>http://localhost:8080/web/KeyManagement</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//tbody[@id='keyTable']/tr/td[7]/div/button[2]/i<datalist><option>xpath=//tbody[@id='keyTable']/tr/td[7]/div/button[2]/i</option><option>xpath=//i</option><option>css=i.fa-solid.fa-trash</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
