@@ -441,6 +441,11 @@
             "value": ""
         },
         {
+            "command":"pause",
+            "target":"2000",
+            "value":""
+        },
+        {
             "command": "select",
             "target": "id=province",
             "value": "label=Hồ Chí Minh"
@@ -451,6 +456,11 @@
             "value": ""
         },
         {
+            "command":"pause",
+            "target":"2000",
+            "value":""
+        },
+        {
             "command": "select",
             "target": "id=district",
             "value": "label=Thành Phố Thủ Đức"
@@ -459,6 +469,11 @@
             "command": "click",
             "target": "id=ward",
             "value": ""
+        },
+        {
+            "command":"pause",
+            "target":"2000",
+            "value":""
         },
         {
             "command": "select",
@@ -479,6 +494,11 @@
             "command": "click",
             "target": "id=confirm-address",
             "value": ""
+        },
+        {
+            "command":"pause",
+            "target":"2000",
+            "value":""
         },
         {
             "command": "verifyText",
